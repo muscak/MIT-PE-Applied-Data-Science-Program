@@ -1,2 +1,3 @@
-# MIT-PE-Applied-Data-Science-Program
-Projects of ADSP
+# MIT-PE Applied Data Science Program
+
+This repository contains the project assignments of Applied Data Science Program of MIT Professional Education.
