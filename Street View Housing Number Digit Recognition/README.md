@@ -13,4 +13,6 @@ Here, we will use a subset of the original data to save some computation time. T
 
 <img src='Images/first_10_digits.png' align='center' alt='First 10 labels (digits) in training set.'></img>
 
+As you can see in the below count plot, the number of each digit in the training dataset are quit similar to the eachother. That's why it's safe to highlight that the trainin set is balanced. This allow us to we can only focus on the accuracy score metric.
+
 <img src='Images/SVHN-Dist.png' align='center' alt='Distribution of the labels (digits) in training set.'></img>
