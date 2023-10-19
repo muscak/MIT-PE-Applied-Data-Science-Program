@@ -8,4 +8,5 @@ This is the elective project of the Applied Data Science Program of MIT Professi
 
 ## Dataset
 
-Here, we will use a subset of the original data to save some computation time. The dataset is provided as a .h5 file. The basic preprocessing steps have been applied on the dataset.
+Here, we will use a subset of the original data to save some computation time. The dataset is provided as a .h5 file. The basic preprocessing steps have been applied on the dataset. 
+<img src='Images/SVHN-Dist.png'></img>
