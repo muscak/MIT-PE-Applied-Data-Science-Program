@@ -8,6 +8,8 @@ This is the elective project of the Applied Data Science Program of MIT Professi
 
 ## Dataset
 
-Here, we will use a subset of the original data to save some computation time. The dataset is provided as a .h5 file. The basic preprocessing steps have been applied on the dataset. The dataset has 2 sub-sets, train and test. Trainin set has 42,000 images and the test has 18,000 images. Each image is size of 32x32 and has only 1 channel (grayscale).
+Here, we will use a subset of the original data to save some computation time. The dataset is provided as a .h5 file. The basic preprocessing steps have been applied on the dataset. The dataset has 2 sub-sets, train and test. Trainin set has 42,000 images and the test has 18,000 images. Each image is size of 32x32 and has only 1 channel (grayscale). You may see the firts 10 labels (digits) in the training set below.
 
-<img src='Images/SVHN-Dist.png' align='center' alt='Disttribution of the labels (digits) in training set.'></img>
+<img src='Images/first_10_digits.png' align='center' alt='First 10 labels (digits) in training set.'></img>
+
+<img src='Images/SVHN-Dist.png' align='center' alt='Distribution of the labels (digits) in training set.'></img>
