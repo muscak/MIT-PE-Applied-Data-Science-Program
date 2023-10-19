@@ -1,1 +1,1 @@
-This folder contains the images for the report of the project.
+This folder contains images and plots for the report of the project.
