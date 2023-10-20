@@ -4,3 +4,4 @@ Recently I've joined to the [Applied Data Science Program of MIT Professional Ed
 
 ## Projects
 - [FoodHub Data Analysis](https://github.com/muscak/MIT-PE-Applied-Data-Science-Program/tree/master/FoodHub%20Data%20Analysis)
+- [Deep Learning Project: Street View Housing Number Digit Recognition]()
