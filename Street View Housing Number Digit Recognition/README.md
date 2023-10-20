@@ -16,3 +16,14 @@ Here, we will use a subset of the original data to save some computation time. T
 As you can see in the below count plot, the number of each digit in the training dataset are quit similar to the eachother. That's why it's safe to highlight that the trainin set is balanced. This allow us to we can only focus on the accuracy score metric.
 
 <img src='Images/SVHN-Dist.png' align='center' alt='Distribution of the labels (digits) in training set.'></img>
+
+## Model Building
+After applying rescaling the images by dividing the array values by 255 and label encoding to the classes, we built several ANN models including networks without CNN. You may see the number of trainable parameters and their accuracy scores in the below table. All models are trains with 20 epochs.
+
+|Model Name        |# of Trainable Parameters|Accuracy Score (%)|
+|-----------------:|:------------:|:------------:|
+|Baseline ANN Model|285,482|      65.44   |
+|First CNN Model|267,306|87.08|
+|Second CNN Model|164,170|91.42|
+
+First CNN suffered from overfitting.
