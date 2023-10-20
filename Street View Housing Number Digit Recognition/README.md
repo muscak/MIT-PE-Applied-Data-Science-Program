@@ -26,17 +26,24 @@ After applying rescaling the images by dividing the array values by 255 and labe
 |First CNN Model|267,306|87.08|
 |Second CNN Model|164,170|91.42|
 
-First CNN suffered from overfitting. To tackle this problem, we added BatchNormalization layers and added 50% Dropout layer to the fully connected layers. We also increase the number of CNN layers so the model not to loose it's generalization ability. You may see some randomly selected predictions on the test set in the below image.
+First CNN suffered from overfitting. To tackle this problem, we added BatchNormalization layers and added 50% Dropout layer to the fully connected layers. We also increase the number of CNN layers so the model not to loose it's generalization ability. Below image is the graphical representation of the proposed model.
+
+<img src='Images/svhn-model.png' align='center' alt='Second CNN Model'></img>
+
+You may see some randomly selected predictions on the test set in the below image.
 
 <img src='Images/svhn-predictions.png' align='center' alt='Randomly selected predictions on the test set'></img>
 
 Classification report shows that The recall has not a high range which implies that the model is good at identifying almost all digits.
 The highest precision is for digits 6 and 8 which implies that the model can distinguish these digits from other objects. On the other hand, the lowest precision values are for digit 3 and digit 5 which can easily be noticed on below the confusion matrix too.
 
-<img src='Images/svhn-confusion_matrix.png' align='center' alt='Confusion Matrix of the Second CNN Molde'></img>
+<img src='Images/svhn-confusion_matrix.png' align='center' alt='Confusion Matrix of the Second CNN Model'></img>
 
 ## Conclusion
 
 In this project we tried to create a deep learning model which would allow us to recognize digits from the housing number images. To achieve this goal we used the 48K of the total 60K images for training of the model and remaining 12K to check the performance of the model. We tried to solve this problem first by using densely connected models (DNN). We developed 2 different models. The latter model was more complex than the first one relatively. However, the overall performance of these models was poor when you compare it to the convolutional neural network (CNN) models. The first CNN model performed better than DNN models however it suffered from overfitting. We solved this problem by adding some regularization methods such as `BatchNormalization` and `Dropout` layers. Additionaly, we add more convolutional layers so the model could be better on feature extraction.
 
 There is still plenty of scope for improvement and you can try out tuning different hyperparameters to improve the model performance.
+
+
+
