@@ -26,4 +26,4 @@ After applying rescaling the images by dividing the array values by 255 and labe
 |First CNN Model|267,306|87.08|
 |Second CNN Model|164,170|91.42|
 
-First CNN suffered from overfitting.
+First CNN suffered from overfitting. To tackle this problem, we added BatchNormalization layers and added 50% Dropout layer to the fully connected layers. We also increase the number of CNN layers so the model not to loose it's generalization ability. 
