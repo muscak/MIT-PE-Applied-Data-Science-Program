@@ -1,5 +1,10 @@
 # Loan Default Prediction
 
+<div align='center'>
+    <img src="Images/loan.jpeg" width=500/>
+    <br/><br/>
+</div>
+
 ## Problem Definition
 
 The consumer credit department of a bank strives to streamline the approval process for home equity lines of credit. In pursuit of this goal, they intend to adhere to the guidelines set forth by the Equal Credit Opportunity Act. The objective is to construct a credit scoring model that is both empirically derived and statistically robust. The model will leverage data collected through the current loan underwriting process, focusing on recent applicants who have successfully obtained credit. While the model will employ predictive modeling techniques, it is imperative that the resulting model remains interpretable, allowing for clear justifications in cases of adverse outcomes such as rejections.
