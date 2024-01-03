@@ -17,14 +17,35 @@ The loan approval process is intricate, involving a manual assessment of various
 
 While many banks have sought to automate this process using heuristics, the emergence of data science and machine learning has shifted the focus towards developing machines capable of learning the approval process. The goal is to eliminate biases and enhance efficiency. However, a critical consideration is ensuring that these machines do not perpetuate biases inherent in the human approval process.
 
-### The objective:
+## The objective:
 
 The objective of this study is to build a classification model to predict clients who are likely to default on their loan and give recommendations to the bank on the important features to consider while approving a loan.
 
-### The key questions:
+## The key questions:
 
 Durnig this study we'll try to find answers for:
 - How we should prepare the data?
 - Which performance metrics should we use?
 - What is the acceptable value for the performance metric?
 - Which ML algorith does provide the best performance?
+
+## ML Algorithms to be tested:
+We'll compare the performance of different algorithms during this study and choose the best one based on the decided performance metric.
+
+- Linear Algorithms
+
+  1. Logistic Regression (LR)
+  2. Linear Discriminant Analysis (LDA)
+
+- Non-linear Algorithms
+
+  3. Decision Tree Classifier (DT)
+  4. $k$-Neighbors Classifier (KNN)
+  5. Support Vector Classifier (SVC)
+  6. Gaussian Naive Bayes (GNB)
+
+- Ensemble Algorithms 
+
+  7. Random Forest Classifier (RFC)
+  8. AdaBoost Classifier (ABC)
+  9. Gradient Boosting Classifier (GBC)
